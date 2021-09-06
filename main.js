@@ -1,7 +1,7 @@
-function check_click(){
+function checked(){
   document.getElementById("checkbox").disabled = "disabled";
   console.log("Clicked");
 }
-function switch_page(){
+function next_page(){
 window.location = "article.html";
 }
