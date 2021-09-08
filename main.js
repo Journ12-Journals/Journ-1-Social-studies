@@ -1,5 +1,5 @@
 function checked(){
-  document.getElementById("checkbox").disabled = "disabled";
+  document.getElementById("checkbox").disabled = "false";
   console.log("Clicked");
 }
 function next_page(){
