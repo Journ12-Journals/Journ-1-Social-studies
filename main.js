@@ -1,4 +1,4 @@
-function understand_rules(){
+function understand(){
   document.getElementById("checkbox").disabled = "false";
   console.log("Clicked");
 }
