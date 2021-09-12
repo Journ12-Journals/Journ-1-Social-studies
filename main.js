@@ -1,4 +1,4 @@
-function checkbox_click(){
+function click_checkbox(){
   document.getElementById("checkbox").disabled = "false";
   console.log("Clicked");
 }
