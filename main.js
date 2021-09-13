@@ -1,7 +1,8 @@
 function understand(value){
-  console.log(value)
-  document.getElementById("checkbox").disabled = "false";
-  console.log("Clicked");
+  if(document.getElementById("checkbox").disabled === false){
+        document.getElementById("checkbox").disabled = "true";}
+  if(document.getElementById("checkbox").disabled === true){
+    document.getElementById("checkbox").disabled = "false";}
 }
 function next_page(){
 window.location = "article.html";
