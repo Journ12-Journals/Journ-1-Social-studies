@@ -1,4 +1,5 @@
-function understand(){
+function understand(value){
+  console.log(value)
   document.getElementById("checkbox").disabled = "false";
   console.log("Clicked");
 }
