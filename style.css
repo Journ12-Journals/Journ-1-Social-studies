@@ -13,15 +13,17 @@ h1{
   font-size:30px;
   color:white;
 }
-h3{
+.state_name{
   font-weight:bold;
+  font-size:30px
   color:white;
 }
-h4{
+.description{
   font-weight:bold;
+  font-size: 20px;
   color:white;
 }
-p{
-  color:white;
-  font-weight:bold;
+.state_flag{
+  height:200px;
+  width:200px;
 }
