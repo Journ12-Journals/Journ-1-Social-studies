@@ -26,3 +26,6 @@ p{
   color:white;
   font-weight:bold;
 }
+li{
+  list-style:none;
+}
